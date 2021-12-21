@@ -18,7 +18,7 @@ const AppRouter = () => {
 
         />;
       })}
-      <Redirect to={RouteNames.EVENT}/> 
+      {/* <Redirect to={RouteNames.EVENT}/>  */}
     </Switch>
   ) : (
     <Switch>
@@ -30,7 +30,7 @@ const AppRouter = () => {
           key={route.path}
         />;
       })}
-       <Redirect to={RouteNames.LOGIN}/> 
+       {/* <Redirect to={RouteNames.LOGIN}/>  */}
     </Switch>
   );
 };
